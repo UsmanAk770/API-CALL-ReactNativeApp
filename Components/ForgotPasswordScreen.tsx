@@ -65,6 +65,7 @@ const ForgotPasswordScreen: React.FC<ForgotPasswordScreenProps> = ({ navigation 
   );
 };
 
+
 export default ForgotPasswordScreen;
 
 const styles = StyleSheet.create({

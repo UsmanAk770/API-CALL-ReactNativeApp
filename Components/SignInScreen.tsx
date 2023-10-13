@@ -78,6 +78,7 @@ const SignInScreen: React.FC<SignInScreenProps> = ({ navigation }) => {
     setIsPasswordEntered(true);
   };
 
+  
   const handleTabChange = (value: boolean) => {
     setIsLogin(value);
     if (value === false) {

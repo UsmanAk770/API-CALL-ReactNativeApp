@@ -82,6 +82,7 @@ const SignUpScreen: React.FC<SignUpScreenProps> = ({ navigation }) => {
     setError('');
   };
 
+  
   return (
     <KeyboardAvoidingView
       style={styles.container}

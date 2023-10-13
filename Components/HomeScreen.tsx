@@ -7,6 +7,7 @@ interface HomeScreenProps {
 }
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
+
   const { dataFromsignInScreen } = route.params;
 
   const handleResourcePress = (resource: string) => {
@@ -15,7 +16,8 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
   };
 
   return (
-    <View style={styles.container}>
+
+  <View style={styles.container}>
       <Text style={styles.head}>Welcome User {dataFromsignInScreen}</Text>
       <Text style={styles.heading}>View JSONPlaceholder 6 Resources</Text>
       <View style={styles.buttonContainer}>

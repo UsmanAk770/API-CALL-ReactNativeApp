@@ -13,11 +13,16 @@ import Comments from './Components/Others/Comments';
 import Photos from './Components/Others/Photos';
 import Todos from './Components/Others/Todos';
 import Users from './Components/Others/Users';
+
 export default function App() {
+   
   const Stack = createNativeStackNavigator();
    return (
-     <NavigationContainer independent={true}>
+
+  <NavigationContainer independent={true}>
+          
           <Stack.Navigator>
+
               <Stack.Screen name="Sign In Screen" component={SignIn} options={{
                 title:"Log In",
           headerStyle: {
@@ -138,7 +143,9 @@ export default function App() {
             fontSize: 35,
             fontWeight: 'bold',
           },}}/>
+
           </Stack.Navigator>
+
      </NavigationContainer>
    );
 }

@@ -35,6 +35,7 @@ const UserPostsDataScreen: React.FC<UserPostsDataScreenProps> = ({ navigation, r
 
   //   fetchData();
   // }, []);
+  
   useEffect(() => {
     const fetchData = async () => {
       try {

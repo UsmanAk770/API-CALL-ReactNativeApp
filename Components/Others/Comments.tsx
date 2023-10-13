@@ -10,6 +10,7 @@ interface Comment {
   body: string;
 }
 
+
 interface CommentScreenProps {
   navigation: any;
   route: any;
